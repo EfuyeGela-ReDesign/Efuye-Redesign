@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='bg-gray-200 w-[232px] h-[376px] shadow-md'></div>
         </div>
       </div>
-      <div className='flex gap-12'>
+      <div className='flex gap-24 mt-10'>
         <SuccessProjects props={900}/>
         <SuccessProjects props={300}/>
         <SuccessProjects props={500}/>
