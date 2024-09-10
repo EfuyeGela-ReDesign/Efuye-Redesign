@@ -76,4 +76,7 @@
   .custom-container {
     @apply max-w-6xl mx-auto p-8 text-center;
   }
+  .custom-container-project {
+    @apply max-w-6xl mx-auto p-6 text-center;
+  }
 }

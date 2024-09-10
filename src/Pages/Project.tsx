@@ -14,7 +14,7 @@ const Project = () => {
 
   return (
    
-    <section>
+    <section className='flex flex-col gap-10'>
         <div className='w-full'>
             <img src={render.image} alt='' className='w-full h-[450px] object-cover'/>
         </div>
@@ -31,9 +31,9 @@ const Project = () => {
 
 
 
-        <div className='custom-container flex gap-10'>
-            <h1 className='text-5xl'>PROBLEM</h1>
-            <p className='text-left'>{render.problem}</p>
+        <div className='custom-container-project flex gap-10'>
+            <h1 className='text-5xl flex-1'>PROBLEM</h1>
+            <p className='text-left flex-3'>{render.problem}</p>
         </div>
 
 
@@ -45,15 +45,15 @@ const Project = () => {
         </div>
 
 
-        <div className='custom-container flex gap-10'>
-            <h1 className='text-5xl text-right'>TARGET AUDIENCE</h1>
-            <p className='text-left'>{render.target}</p>
+        <div className='custom-container-project flex gap-10'>
+            <h1 className='text-5xl flex-1'>TARGET AUDIENCE</h1>
+            <p className='text-left flex-3'>{render.target}</p>
         </div>
 
 
-        <div className='custom-container flex gap-10'>
-            <h1 className='text-5xl text-right'>SOLUTION</h1>
-            <p className='text-left'>{render.solution}</p>
+        <div className='custom-container-project flex gap-10'>
+            <h1 className='text-5xl flex-1'>SOLUTION</h1>
+            <p className='text-left flex-3'>{render.solution}</p>
         </div>
 
         <div className='flex items-center justify-center gap-2 mb-10'>
@@ -63,9 +63,9 @@ const Project = () => {
         </div>
 
 
-        <div className='custom-container flex gap-10'>
-            <h1 className='text-5xl text-right'>IMPACT</h1>
-            <p className='text-left'>{render.impact}</p>
+        <div className='custom-container-project flex gap-10'>
+            <h1 className='text-5xl flex-1'>IMPACT</h1>
+            <p className='text-left flex-3'>{render.impact}</p>
         </div>
 
 

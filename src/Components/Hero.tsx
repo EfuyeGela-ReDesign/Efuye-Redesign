@@ -26,11 +26,11 @@ const Hero = () => {
 const SuccessProjects = ({props}) => {
   return (
     <div className="flex flex-col items-center mt-6">
-      <div className="relative text-5xl font-bold">
+      <div className="relative text-4xl font-bold">
         <span className='text-[5.125rem] font-bebas font-thin'>{props}</span>
-        <span className="absolute top-[-30px] right-[-30px] text-7xl font-thin text-utility">+</span>
+        <span className="absolute top-[-2.813rem] right-[-1.875rem] text-7xl font-thin text-utility">+</span>
       </div>
-      <p className="mt-2 text-slate-800 text-md">Successful Projects</p>
+      <p className="text-slate-800 text-md">Successful Projects</p>
     </div>
   );
 };

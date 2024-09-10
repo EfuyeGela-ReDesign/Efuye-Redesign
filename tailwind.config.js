@@ -24,6 +24,7 @@ export default {
   		colors: {
 			efuye:'#090A36',
 			utility:'#FB8815',
+			readmore:'#FFA500',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

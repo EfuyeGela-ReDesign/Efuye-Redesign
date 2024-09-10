@@ -19,7 +19,7 @@ const ImageGrid = ({image}) => {
                 <p className='text-left w-full'>
                   {item.description}
                 </p>
-                <Link to={`/${item.id}`} className='text-utility bg-transparent text-left w-full'>
+                <Link to={`/${item.id}`} className='text-readmore bg-transparent text-left w-full'>
                     READ MORE
                 </Link>
               </div>
