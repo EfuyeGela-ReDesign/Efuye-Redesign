@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 
 const ImageGrid = ({image}) => {
   return (
-    <div className='custom-container container grid grid-cols-3 gap-5 border-none'>
+    <div className='custom-container grid grid-cols-3 gap-6 border-none'>
         {
           image.map((item: { image: string | undefined; title: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined; description: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | Iterable<React.ReactNode> | React.ReactPortal | null | undefined }) =>(
             <Card className='border-none'>

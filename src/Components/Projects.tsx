@@ -24,7 +24,7 @@ const Projects = () => {
   
   
   return (
-    <section className='custom-container container flex flex-col gap-2'>
+    <section className='custom-container flex flex-col gap-2'>
       <div className='flex gap-2 items-center justify-center mb-10'>
           <p>GAME THINKING</p>
           <div  className='border-yellow-600 border-solid h-[1.25rem] border-[0.075rem]'></div>

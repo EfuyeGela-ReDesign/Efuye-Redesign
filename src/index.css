@@ -73,6 +73,6 @@
 
 @layer utilities {
   .custom-container {
-    @apply max-w-5xl mx-auto p-8 text-center;
+    @apply max-w-6xl mx-auto p-8 text-center;
   }
 }

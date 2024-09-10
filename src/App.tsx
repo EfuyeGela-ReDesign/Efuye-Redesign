@@ -7,11 +7,11 @@ function App() {
 
   return (
     <Router>
-      <div className="font-bebas flex-col gap-10 overflow-hidden">
+      <div className="font-bebas flex-col gap-10 overflow-hidden text-efuye">
          <Routes>
             <Route path ='/' element={<Home/>} />
             <Route path ='/:id' element={<Project />} />
-         </Routes>
+         </Routes> 
       </div>
 
     </Router>
