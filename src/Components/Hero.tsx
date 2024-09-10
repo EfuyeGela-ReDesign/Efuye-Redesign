@@ -3,12 +3,12 @@ const Hero = () => {
   
   return (
     <section className='custom-container flex flex-col w-full justify-between h-full mb-10 text-efuye mt-10'>
-      <div className='flex'>
-        <h1 className='flex justify-start items-start text-8xl text-left font-thin text-shadow-sm'>Discover Our Projects</h1>
-        <div className='flex gap-4'>
-          <div className='flex flex-col gap-4'>
-            <div className='bg-gray-200 w-[312px] h-[179px] shadow-md'></div>
-            <div className='bg-gray-200 w-[312px] h-[179px] shadow-md'></div>
+      <div className='flex justify-between'>
+        <h1 className='flex-1 justify-start items-start text-8xl text-left font-thin text-shadow-sm'>Discover Our Projects</h1>
+        <div className='flex-1 grid-cols-2 grid gap-12'>
+          <div className='grid grid-row-2 gap-4'>
+              <div className='bg-gray-200 w-[280px] h-[179px] shadow-md'></div>
+              <div className='bg-gray-200 w-[280px] h-[179px] shadow-md'></div>
           </div>
           <div className='bg-gray-200 w-[232px] h-[376px] shadow-md'></div>
         </div>
