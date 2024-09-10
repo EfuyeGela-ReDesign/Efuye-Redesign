@@ -26,11 +26,11 @@ const Projects = () => {
   return (
     <section className='custom-container flex flex-col gap-2'>
       <div className='flex gap-2 items-center justify-center mb-10'>
-          <p>GAME THINKING</p>
-          <div  className='border-yellow-600 border-solid h-[1.25rem] border-[0.075rem]'></div>
-          <p>COMMUNITY DEVELOPMENT</p>
-          <div className='border-yellow-600 border-solid h-[1.25rem] border-[0.075rem]'></div>
-          <p>PRODUCTS AND SERVICE</p>
+          <p className='text-[1.25rem]'>GAME THINKING</p>
+          <div  className='border-utility border-solid h-[1.25rem] border-[0.075rem]'></div>
+          <p className='text-[1.25rem]'>COMMUNITY DEVELOPMENT</p>
+          <div className='border-utility border-solid h-[1.25rem] border-[0.075rem]'></div>
+          <p className='text-[1.25rem]'>PRODUCTS AND SERVICE</p>
       </div>
       { Object.keys(image).length !== 0 ? (<ImageGrid image={currentPosts}/>) : (<div>Loading...</div>)}
 

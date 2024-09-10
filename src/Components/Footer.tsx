@@ -25,11 +25,11 @@ const Footer = () => {
             <p>Testimonials</p>
           </div>
           <div className="flex flex-col font-inter gap-3">
-            <h1 className="text-xl pb-2">COMPANY</h1>
-            <p>About us</p>
-            <p>Blog</p>
-            <p>Contact us</p>
-            <p>Testimonials</p>
+            <h1 className="text-xl pb-2">Support</h1>
+            <p>Help Center</p>
+            <p>Terms of Service</p>
+            <p>Legal</p>
+            <p>Privacy Policy</p>
           </div>
 
           <div className="flex flex-col font-inter">
