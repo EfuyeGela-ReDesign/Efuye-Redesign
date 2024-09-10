@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import '@fontsource/inter/index.css';
+@import '@fontsource/itim/index.css';
 *{
   margin:0;
   padding:0;

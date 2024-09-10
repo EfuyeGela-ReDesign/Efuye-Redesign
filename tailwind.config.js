@@ -10,6 +10,7 @@ export default {
       fontFamily: {
         'bebas': ['"Bebas Neue"', 'cursive'], 
 		'inter': ['Inter', 'sans-serif'],
+		'itim':['Itim','cursive']
       },
       textShadow: {
         'sm': '1px 1px 2px rgba(0, 0, 0, 0.5)',
@@ -24,6 +25,8 @@ export default {
   		colors: {
 			efuye:'#090A36',
 			utility:'#FB8815',
+			footer:"#263238",
+			textColor:'#F5F7FA',
 			readmore:'#FFA500',
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
